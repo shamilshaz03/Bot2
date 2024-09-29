@@ -5,7 +5,7 @@ class script(object):
 𝟽𝟼𝟶𝟶𝟶+ ᴠɪᴅᴇᴏs ᴏɴʟʏ 𝟹𝟿𝟿₹ 
 ᴀʟʟ ᴛʏᴘᴇ ᴠɪᴅᴇᴏs ᴀᴠᴀɪʟᴀʙʟᴇ.</b>"""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/me_shamil>Creator</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/xmallu_admin>Creator</a>
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0 [ 𝙱𝙴𝚃𝙰 ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
