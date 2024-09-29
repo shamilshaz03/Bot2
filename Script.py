@@ -9,7 +9,7 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: ᴘʀɪᴠᴀᴛᴇ sᴇʀᴠᴇʀ
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0 [ 𝙱𝙴𝚃𝙰 ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- 😂 </b>"""
+- 😂 </b>
 <b>DEVS:</b>
 - 😭"""
     TELEGRAPH = """Reply to any photo or video using by /telegraph that photo telegraph link you will get"""
