@@ -738,7 +738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
+            text='''𝟺𝟸𝟶𝟶𝟶+ ᴠɪᴅᴇᴏs ᴏɴʟʏ 𝟸𝟿𝟿₹ ᴀʟʟ ᴛʏᴘᴇ ᴠɪᴅᴇᴏs ᴀᴠᴀɪʟᴀʙʟᴇ'''(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
