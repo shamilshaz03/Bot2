@@ -698,11 +698,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/c_4O.JPG')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://t.me/+-Z86vLu-8r9jMTg9')
         ], [
-            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/c_4O.JPG')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://t.me/+-Z86vLu-8r9jMTg9')
         ], [
-            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://mangandi.onrender.com/c_4O.JPG')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://t.me/+-Z86vLu-8r9jMTg9')
         ], [
             InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
@@ -721,11 +721,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "helpps":
         buttons = [[
-            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/hOzf.JPG')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://t.me/+SZcL4_W_ZTNlYjFl')
         ], [
-            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/hOzf.JPG')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://t.me/+SZcL4_W_ZTNlYjFl')
         ], [
-            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://mangandi.onrender.com/hOzf.JPG')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://t.me/+SZcL4_W_ZTNlYjFl')
         ], [
             InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
@@ -744,11 +744,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tools":
         buttons = [[
-            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/A-d6.JPG')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://t.me/+7rKJgO2AwBlkYjdl')
         ], [
-            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/A-d6.JPG')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://t.me/+7rKJgO2AwBlkYjdl')
         ], [
-            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://mangandi.onrender.com/A-d6.JPG')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://t.me/+7rKJgO2AwBlkYjdl')
         ], [
             InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
