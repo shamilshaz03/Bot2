@@ -698,11 +698,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=399&cu=INR&url=YourURL')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/c_4O.JPG')
         ], [
-            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=399&cu=INR&url=YourURL')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/c_4O.JPG')
         ], [
-            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=399&cu=INR&url=YourURL')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://mangandi.onrender.com/c_4O.JPG')
         ], [
             InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
@@ -721,11 +721,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "helpps":
         buttons = [[
-            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=299&cu=INR&url=YourURL')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/hOzf.JPG')
         ], [
-            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=299&cu=INR&url=YourURL')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/hOzf.JPG')
         ], [
-            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=299&cu=INR&url=YourURL')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://mangandi.onrender.com/hOzf.JPG')
         ], [
             InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
@@ -744,11 +744,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tools":
         buttons = [[
-            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=199&cu=INR&url=YourURL')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/A-d6.JPG')
         ], [
-            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=199&cu=INR&url=YourURL')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://mangandi.onrender.com/A-d6.JPG')
         ], [
-            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=199&cu=INR&url=YourURL')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://mangandi.onrender.com/A-d6.JPG')
         ], [
             InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
@@ -1263,6 +1263,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Rᴇғʀᴇsʜ ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
         monsize = await db.get_db_size()
