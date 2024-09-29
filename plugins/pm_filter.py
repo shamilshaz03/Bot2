@@ -679,13 +679,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
       
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('〆 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('• Sᴇᴀʀᴄʜ •', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('• Uᴘᴅᴀᴛᴇ •', url=UPDATE_CHANNEL)
+            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 𝟷𝟿𝟿₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('• Hᴇʟᴘ •', callback_data='help'),
-            InlineKeyboardButton('• Aʙᴏᴜᴛ •', callback_data='about')
+            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 𝟸𝟿𝟿₹', callback_data='helpps')
+            ],[
+            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 𝟹𝟿𝟿₹', callback_data='help')
+            ],[
+            InlineKeyboardButton('ᴀᴅᴍɪɴ 🧶', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -696,24 +698,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Fɪʟᴛᴇʀs ', callback_data='filter'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ  ', callback_data='storeda'),
-            InlineKeyboardButton('Pʀᴏᴍᴏᴛᴇ ', callback_data='prmt')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=399&cu=INR&url=YourURL')
         ], [
-            InlineKeyboardButton('Pɪɴ ', callback_data='pin'),
-            InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅs', callback_data='extra'),
-            InlineKeyboardButton('Pᴏɴɢ', callback_data='pong')
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=399&cu=INR&url=YourURL')
         ], [
-            InlineKeyboardButton('Fᴜɴs', callback_data='funs'),
-            InlineKeyboardButton('ᴀɪ ', callback_data='ai'),
-            InlineKeyboardButton('Tᴛs', callback_data='tts')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=399&cu=INR&url=YourURL')
         ], [
-            InlineKeyboardButton('Bᴜɢs Rᴇᴘᴏʀᴛ', callback_data='bugs'),
-            InlineKeyboardButton('Fᴏɴᴛ', callback_data='font'),
-            InlineKeyboardButton('Fᴇᴇᴅʙᴀᴄᴋ ', callback_data='feed')
+            InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
-            InlineKeyboardButton('⇌ Bᴀᴄᴋ ', callback_data='start'),
-            InlineKeyboardButton('Nᴇxᴛ ⇌', callback_data='helpps')
+            InlineKeyboardButton('Bᴀᴄᴋ ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -728,23 +721,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "helpps":
         buttons = [[
-            InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ ɪᴅ ', callback_data='stcker'),
-            InlineKeyboardButton('Eᴄʜᴏ ', callback_data='echo'),
-            InlineKeyboardButton('Iᴍᴀɢᴇ ', callback_data='img')
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=299&cu=INR&url=YourURL')
         ], [
-            InlineKeyboardButton('Iᴍᴀɢɪɴᴇ ', callback_data='imagine'),
-            InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴇ  ', callback_data='trans'),
-            InlineKeyboardButton('Cᴀʀʙᴏɴ  ', callback_data='carbon'),       
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=299&cu=INR&url=YourURL')
         ], [
-            InlineKeyboardButton('Eɴʜᴀɴᴄᴇ ', callback_data='enhance'),
-            InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='telegraph'),
-            InlineKeyboardButton('Sᴏɴɢ ', callback_data='song')
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=299&cu=INR&url=YourURL')
         ], [
-            InlineKeyboardButton('Qʀ ᴄᴏᴅᴇ ', callback_data='qr'),
-            InlineKeyboardButton('Lʏʀɪᴄꜱ ', callback_data='lyrics'),
-            InlineKeyboardButton('Tᴏᴏʟꜱ ', callback_data='tools')
+            InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
         ], [
-            InlineKeyboardButton('⇌ Bᴀᴄᴋ ⇌', callback_data='help')
+            InlineKeyboardButton('Bᴀᴄᴋ ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -758,8 +743,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "tools":
-        buttons = [[                        
-            InlineKeyboardButton('⇌ Bᴀᴄᴋ ⇌', callback_data='helpps')
+        buttons = [[
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=199&cu=INR&url=YourURL')
+        ], [
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=199&cu=INR&url=YourURL')
+        ], [
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'upi://pay?pa=a.j.1@superyes&pn=YourName&mc=YourMerchantCode&tid=YourTransactionId&am=199&cu=INR&url=YourURL')
+        ], [
+            InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
+        ], [
+            InlineKeyboardButton('Bᴀᴄᴋ ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1126,15 +1119,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴛᴀᴛᴜs ​', callback_data='stats'),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ ​', callback_data='source')
+            InlineKeyboardButton('​ᴛᴏᴛᴀʟ ʙᴏᴛ ᴜsᴇʀs 🎰', callback_data='stats')
+ 
         ],[
-            InlineKeyboardButton('🛰 Rᴇɴᴅᴇʀɪɴɢ Iɴғᴏ ☁️', callback_data='rendering_info')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ 🕴️', url=f'https://t.me/xmallu_admin')
         ],[            
             InlineKeyboardButton('© Dɪsᴄʟᴀɪᴍᴇʀ ©', callback_data='dics_btn')
         ],[
-            InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data')
+            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1271,7 +1263,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Rᴇғʀᴇsʜ ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
         monsize = await db.get_db_size()
