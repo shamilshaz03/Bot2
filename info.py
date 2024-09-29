@@ -21,10 +21,10 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/5c94a977943ac2b777d93.jpg')).split()
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b860e8d8a234384950587.jpg")
-WVD = environ.get("WVD", "https://telegra.ph/file/b735f93c8eeef4167c6a1.mp4")
-NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/5c94a977943ac2b777d93.jpg")
+PICS = (environ.get('PICS', '')).split()
+SPELL_IMG = environ.get("SPELL_IMG", "")
+WVD = environ.get("WVD", "")
+NO_IMDB = environ.get("NO_IMDB", "")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -47,8 +47,8 @@ BOT_USERNAME = environ.get('BOT_USERNAME', 'TonyStartkRobot')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'me_shamil')
-UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/me_shamil') # add here your update channel link
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'EnteNeelaThamarabot')
+UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/+sRJuR5mys5w3Yjll') # add here your update channel link
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), False)
@@ -59,7 +59,7 @@ PORT = os.environ.get("PORT", "8080")
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
-SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
+SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
