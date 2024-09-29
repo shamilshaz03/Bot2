@@ -21,7 +21,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', '')).split()
+PICS = (environ.get('PICS', 'https://mangandi.onrender.com/Umbj.JPG')).split()
 SPELL_IMG = environ.get("SPELL_IMG", "")
 WVD = environ.get("WVD", "")
 NO_IMDB = environ.get("NO_IMDB", "")
