@@ -681,11 +681,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 𝟷𝟿𝟿₹', callback_data='tools')
+            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 𝟸𝟿𝟿₹', callback_data='helpps')
+            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
             ],[
-            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 𝟹𝟿𝟿₹', callback_data='help')
+            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
+            ],[
+            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
             ],[
             InlineKeyboardButton('ᴀᴅᴍɪɴ 🧶', callback_data='about')
         ]]
@@ -766,8 +768,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "lyrics":
-        buttons = [[                        
-            InlineKeyboardButton('⇌ Bᴀᴄᴋ ⇌', callback_data='helpps')
+        buttons = [[
+            InlineKeyboardButton('ɢᴏᴏɢʟᴇ ᴘᴀʏ ✅', url=f'https://t.me/+owa23b81W0Y2NmJl')
+        ], [
+            InlineKeyboardButton('ᴘʜᴏɴᴇ ᴘᴀʏ ✅', url=f'https://t.me/+owa23b81W0Y2NmJl')
+        ], [
+            InlineKeyboardButton('ᴘᴀʏᴛᴍ ✅', url=f'https://t.me/+owa23b81W0Y2NmJl')
+        ], [
+            InlineKeyboardButton('ʙᴀɴᴋ ᴛʀᴀɴsғᴇʀ ᴀɴᴅ ᴏᴛʜᴇʀ ᴘᴀʏᴍᴇɴᴛs✅', url=f'https://t.me/xmallu_admin')
+        ], [
+            InlineKeyboardButton('Bᴀᴄᴋ ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1119,7 +1129,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('​ᴛᴏᴛᴀʟ ʙᴏᴛ ᴜsᴇʀs 🎰', callback_data='stats')
+            InlineKeyboardButton('​ᴛᴏᴛᴀʟ ᴠɪᴅᴇᴏs 🎰', callback_data='stats')
  
         ],[
             InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ 🕴️', url=f'https://t.me/xmallu_admin')
