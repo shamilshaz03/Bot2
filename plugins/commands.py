@@ -45,11 +45,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 𝟷𝟿𝟿₹', callback_data='tools')
+            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 𝟸𝟿𝟿₹', callback_data='helpps')
+            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
             ],[
-            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 𝟹𝟿𝟿₹', callback_data='help')
+            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
+            ],[
+            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
             ],[
             InlineKeyboardButton('ᴀᴅᴍɪɴ 🧶', callback_data='about')
         ]]
@@ -93,11 +95,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 𝟷𝟿𝟿₹', callback_data='tools')
+            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 𝟸𝟿𝟿₹', callback_data='helpps')
+            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
             ],[
-            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 𝟹𝟿𝟿₹', callback_data='help')
+            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
+            ],[
+            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
             ],[
             InlineKeyboardButton('ᴀᴅᴍɪɴ 🧶', callback_data='about')
         ]]
