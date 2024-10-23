@@ -679,15 +679,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
       
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
+            InlineKeyboardButton('〆 ɪɴᴠᴀᴛᴇ 𝟻 ғʀɪᴇɴᴅs ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴠɪᴅᴇᴏs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
+            InlineKeyboardButton('☄️sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
+            InlineKeyboardButton('☄️ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
             ],[
-            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
+            InlineKeyboardButton('☄️ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
             ],[
-            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
+            InlineKeyboardButton('☄️ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
             ],[
             InlineKeyboardButton('ᴀᴅᴍɪɴ ᴀɴᴅ ᴛᴏᴛᴀʟ ᴠɪᴅᴇᴏs ɪɴғᴏ🧶', callback_data='about')
         ]]
@@ -740,7 +740,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-            text='''𝟺𝟸𝟶𝟶𝟶+ ᴠɪᴅᴇᴏs ᴏɴʟʏ 𝟸𝟿𝟿₹ ᴀʟʟ ᴛʏᴘᴇ ᴠɪᴅᴇᴏs ᴀᴠᴀɪʟᴀʙʟᴇ'''(query.from_user.mention),
+            text='''𝟺𝟸𝟶𝟶𝟶+ 𝙑𝙄𝘿𝙀𝙊𝙎 🥵 
+    𝙋𝘼𝙔 𝙐𝙎𝙄𝙉𝙂 𝙏𝙃𝙀 𝙌𝙍 𝘾𝙊𝘿𝙀. 
+    𝘼𝙉𝘿 𝙎𝙀𝙉𝘿 𝙎𝘾𝙍𝙀𝙀𝙉𝙎𝙃𝙊𝙏 𝙏𝙊 𝘼𝘿𝙈𝙄𝙉''',
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
