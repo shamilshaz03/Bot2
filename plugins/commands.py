@@ -43,15 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
+            InlineKeyboardButton('〆 ɪɴᴠᴀᴛᴇ 𝟻 ғʀɪᴇɴᴅs ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴠɪᴅᴇᴏs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
+            InlineKeyboardButton('☄️sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
+            InlineKeyboardButton('☄️ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
             ],[
-            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
+            InlineKeyboardButton('☄️ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
             ],[
-            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
+            InlineKeyboardButton('☄️ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
             ],[
             InlineKeyboardButton('ᴀᴅᴍɪɴ ᴀɴᴅ ᴛᴏᴛᴀʟ ᴠɪᴅᴇᴏs ɪɴғᴏ🧶', callback_data='about')
         ]]
@@ -93,15 +93,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('〆 sʜᴀʀᴇ ʙᴏᴛ ᴛᴏ ғʀɪᴇɴᴅs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
+            InlineKeyboardButton('〆 ɪɴᴠᴀᴛᴇ 𝟻 ғʀɪᴇɴᴅs ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴠɪᴅᴇᴏs 〆', url=f'https://t.me/share/url?url=https://t.me/{temp.U_NAME}')
             ],[
-            InlineKeyboardButton('sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
+            InlineKeyboardButton('☄️sɪʟᴠᴇʀ ᴘʟᴀɴ 200₹', callback_data='tools')
             ],[
-            InlineKeyboardButton('ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
+            InlineKeyboardButton('☄️ɢᴏʟᴅ ᴘʟᴀɴ 300₹', callback_data='helpps')
             ],[
-            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
+            InlineKeyboardButton('☄️ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ 600₹', callback_data='help')
             ],[
-            InlineKeyboardButton('ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
+            InlineKeyboardButton('☄️ᴠɪᴘ ᴘʟᴀɴ 1000₹', callback_data='lyrics')
             ],[
             InlineKeyboardButton('ᴀᴅᴍɪɴ ᴀɴᴅ ᴛᴏᴛᴀʟ ᴠɪᴅᴇᴏs ɪɴғᴏ🧶', callback_data='about')
         ]]
